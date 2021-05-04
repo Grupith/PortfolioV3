@@ -219,6 +219,10 @@ nav {
   color: rgb(226, 225, 225);
 }
 
+.contactEmailLink {
+  text-decoration: none;
+}
+
 footer {
   margin: 2px;
   font-weight: 200;
