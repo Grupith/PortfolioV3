@@ -1,0 +1,157 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo:wght@200;300;400;500;600;700&display=swap");
+* {
+  color: rgb(163, 163, 163);
+  font-family: "Exo", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #16161e;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15rem;
+}
+
+h1 {
+  font-size: 2.9rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-weight: 200;
+  font-size: 1.7rem;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5px;
+}
+
+.navLI {
+  margin: 4px;
+  text-decoration: none;
+  list-style-type: none;
+  display: inline;
+  font-weight: 400;
+  font-size: 1.4rem;
+}
+
+.navLI:hover {
+  color: rgb(224, 221, 221);
+}
+
+.about {
+  margin-top: 10rem;
+  display: flex;
+  justify-content: center;
+}
+
+.skillsBox {
+  background-color: #262631be;
+  height: 20rem;
+  width: 20rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.skillsTitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.skillsList {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  list-style-type: none;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.skillItem {
+  font-size: 1.3rem;
+  font-weight: 300;
+  margin: 8px;
+}
+
+.infoBox {
+  background-color: #262631be;
+  height: fit-content;
+  width: fit-content;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.infoTitle {
+  font-size: 2.2rem;
+  font-weight: 600;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.infoText {
+  margin: 1rem 2rem;
+  font-size: 1.2rem;
+  line-height: 1.8rem;
+  font-weight: 300;
+  text-align: center;
+  width: 35rem;
+}
+
+.infoButtonWrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom: 1.2rem;
+}
+
+.infoSnippet {
+  font-size: 1.1rem;
+  font-weight: 500;
+  padding-right: 1rem;
+}
+
+.githubIcon {
+  height: 2.5rem;
+}
+
+@media only screen and (max-width: 600px) {
+  nav {
+    justify-content: center;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 2.3rem;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+  }
+
+  .about {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .infoBox {
+    width: 80%;
+  }
+
+  .infoText {
+    width: 20rem;
+  }
+}
