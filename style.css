@@ -134,6 +134,58 @@ nav {
   height: 2.5rem;
 }
 
+.projectsTitle {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  background-color: #262631be;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.projectPage {
+  display: flex;
+  justify-content: center;
+  margin-top: 1rem;
+}
+
+.projectBox {
+  background-color: #262631be;
+  margin-top: 3rem;
+  width: 30rem;
+  height: fit-content;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin: 1rem;
+}
+
+.projectImage {
+  border-radius: 1rem;
+  width: 100%;
+}
+
+.projectImage:hover {
+  transform: scale(1.05);
+  transition: ease-in-out 300ms;
+}
+
+.projectName {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-top: 8px;
+}
+
+.projectText {
+  margin-top: 1rem;
+  text-align: center;
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     justify-content: center;
@@ -168,5 +220,15 @@ nav {
 
   .logo {
     width: 50%;
+  }
+
+  .projectPage {
+    margin-top: 1rem;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .projectBox {
+    width: 75%;
   }
 }

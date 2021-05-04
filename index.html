@@ -12,8 +12,8 @@
 <nav>
     <ul class='navUL'>
         <a class='navLI' href='#'><li class='navLI'>Home</li></a>
-        <a class='navLI' href='#skills'><li class='navLI'>About</li></a>
-        <a class='navLI' href='#'><li class='navLI'>Projects</li></a>
+        <a class='navLI' href='#aboutme'><li class='navLI'>About</li></a>
+        <a class='navLI' href='#projects'><li class='navLI'>Projects</li></a>
         <a class='navLI' href='#'><li class='navLI'>Contact</li></a>
     </ul>
 </nav>
@@ -27,7 +27,7 @@
     <div class="about" id='about'>
         <div class="skillsBox">
             <h3 class='skillsTitle'>Skills</h3>
-            <ul id='skills' class='skillsList'>
+            <ul class='skillsList'>
                 <li class='skillItem'>Html</li>
                 <li class='skillItem'>Css</li>
                 <li class='skillItem'>Javascript</li>
@@ -35,12 +35,30 @@
             </ul>
         </div>
         <div class="infoBox">
-            <h3 class='infoTitle'>About me</h3>
+            <h3 id='aboutme' class='infoTitle'>About me</h3>
             <p class='infoText'>Hello, Im Dylan, a 22 year old Self-Taught Web Developer striving to make better apps and websites everyday. Feel free to check out my progress and the current projects im working on down below!</p>
             <div class='infoButtonWrapper'>
                 <h4 class='infoSnippet'>Here is a link to my code!</h4>
                 <a href='https://github.com/Grupith' target='_blank'><img class='githubIcon' src='assets/githubLight.png'></a>
             </div>
+        </div>
+    </div>
+    <h3 id='projects' class="projectsTitle">Projects</h3>
+    <div class="projectPage">
+        <div class="projectBox">
+            <a href='https://grupith.netlify.app/' target='_blank'><img class='projectImage' src='assets/projectThumbnails/PortfolioCard.PNG'></a>
+            <h4 class='projectName'>First Portfolio</h4>
+            <p class='projectText'> This is my first portfolio that I made. This taught me the basics of html and css.</p>
+        </div>
+        <div class="projectBox">
+            <a href='https://grupithstodo.netlify.app/' target='_blank'><img class='projectImage' src='assets/projectThumbnails/todoAppIMG.png'></a>
+            <h4 class='projectName'>To-do App</h4>
+            <p class='projectText'> This is a to-do app that I built to learn the basics of Javascript.</p>
+        </div>
+        <div class="projectBox">
+            <a href='https://farmerclick.netlify.app/' target='_blank'><img class='projectImage' src='assets/projectThumbnails/farmerclickIMG.PNG'></a>
+            <h4 class='projectName'>FarmerClick</h4>
+            <p class='projectText'> This is a little game like cookie clicker that I made to learn how to use some features in javascript.</p>
         </div>
     </div>
 </body>
