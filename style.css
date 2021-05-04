@@ -59,7 +59,8 @@ nav {
 
 .skillsBox {
   background-color: #262631be;
-  height: 20rem;
+  height: fit-content;
+  padding-bottom: 1.1rem;
   width: 20rem;
   border-radius: 1rem;
   margin: 1rem;
@@ -78,7 +79,7 @@ nav {
   flex-direction: column;
   list-style-type: none;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 1rem;
 }
 
 .skillItem {
@@ -143,8 +144,12 @@ nav {
   }
 
   .about {
-    flex-direction: column;
+    flex-direction: column-reverse;
     align-items: center;
+  }
+
+  .skillItem {
+    font-size: 1.4rem;
   }
 
   .infoBox {
@@ -153,5 +158,6 @@ nav {
 
   .infoText {
     width: 20rem;
+    text-align: center;
   }
 }
