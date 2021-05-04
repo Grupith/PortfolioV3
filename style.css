@@ -8,6 +8,7 @@
 
 html {
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -186,6 +187,45 @@ nav {
   text-align: center;
 }
 
+.contactPage {
+  margin-top: 1rem;
+}
+
+.contactTitle {
+  text-align: center;
+  font-size: 2.3rem;
+  font-weight: 600;
+  background-color: #262631be;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.contactInfo {
+  text-align: center;
+  font-size: 1.3rem;
+  font-weight: 400;
+  background-color: #262631be;
+  width: fit-content;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 10px 20px;
+  border-radius: 12px;
+}
+
+.contactEmail {
+  color: rgb(226, 225, 225);
+}
+
+footer {
+  margin: 2px;
+  font-weight: 200;
+  text-align: center;
+  margin-top: 1rem;
+}
+
 @media only screen and (max-width: 600px) {
   nav {
     justify-content: center;
@@ -229,6 +269,10 @@ nav {
   }
 
   .projectBox {
+    width: 75%;
+  }
+
+  .contactInfo {
     width: 75%;
   }
 }
