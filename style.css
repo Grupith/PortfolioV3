@@ -153,7 +153,7 @@ nav {
   }
 
   .infoBox {
-    width: 80%;
+    width: fit-content;
   }
 
   .infoText {
