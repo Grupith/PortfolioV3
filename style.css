@@ -272,8 +272,16 @@ footer {
     align-items: center;
   }
 
+  .projectsTitle {
+    margin-top: 11px;
+  }
+
   .projectBox {
     width: 75%;
+  }
+
+  .contactTitle {
+    margin-top: 8px;
   }
 
   .contactInfo {
